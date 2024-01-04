@@ -58,7 +58,7 @@ header{
 .banner{
   width: 100%;
   height: 500px;
-  background-image: url(../img/banner-inicio.jpg);
+  background-image: url(../img/chica.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -131,7 +131,7 @@ header{
   font-size: 16px;
   padding-bottom: 35px;
   line-height: 1.7em;
-  max-width: 370px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -149,12 +149,12 @@ header{
   justify-content: center;
 }
 
-.foto-equipo{
+.foto-sombrero {
   width: 100%;
   max-width: 570px;
 }
 
-.foto-equipo img{
+.foto-sombrero img{
   width: 100%;
 }
 
@@ -244,6 +244,7 @@ header{
 
 .center-footer .widget p{
   font-size: 14px;
+  margin-top: 1em;
 }
 
 .bottom-footer{
