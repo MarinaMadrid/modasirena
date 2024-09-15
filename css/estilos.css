@@ -10,7 +10,6 @@ body{
 
 .contenedor{
   width: 100%;
-  max-width: 1170px;
   margin: auto;
 }
 
@@ -49,7 +48,7 @@ header{
 }
 
 .menu a:hover{
-  color:#a4281f;
+  color:rgb(24, 155, 211);
 }
 /*FIN DE CABECERA*/
 
@@ -91,7 +90,7 @@ header{
   color: white;
   width: 100%;
   padding: 45px 0;
-  background-color: rgba(255, 255, 255, 0.288);
+  background-color: rgba(255, 255, 255, 0.192);
   max-width: 470px;
 }
 
@@ -115,7 +114,7 @@ header{
 
 .bienvenida{
   width: 100%;
-  background-color: #3e606f;
+  background-color: rgb(78, 119, 137);
   margin-top: 2px;
   color: #ffffff;
   text-align: center;
@@ -162,6 +161,10 @@ header{
   text-align: center;
   padding: 15px 0px;
   max-width: 570px;
+}
+
+.conocenos-titulo{
+  text-align: center;
 }
 
 .conocenos p:nth-child(1){
@@ -212,16 +215,18 @@ header{
 
 /*PIE DE PÁGINA*/
 
+footer{
+  background-color:#193441 !important;
+  width: 100%;
+  margin: 0;
+}
+
 .top-footer{
-  background-color:#193441;
   height:25px;
 }
 
-.center-footer{
-  background-color: #152d37;
-}
-
 .center-footer .contenedor{
+  background-color: rgba(27, 69, 90, 0.938);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -231,13 +236,14 @@ header{
   text-align: center;
   padding-top: 20px;
   padding-bottom: 35px;
-  color:#7a7a7a;
+  color:#ebe9e9;
 
   max-width: 270px;
   margin: 0 auto;
 }
 
 .center-footer .widget h4{
+  margin-top: 2em;
   padding-bottom: 35px;
   font-size: 18px;
 }
@@ -253,7 +259,7 @@ header{
 }
 
 .bottom-footer p{
-  color:#7a7a7a;
+  color:#ebe9e9;
   font-size: 12px;
   text-align: center;
 }
