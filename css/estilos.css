@@ -134,6 +134,12 @@ header{
   margin: 0 auto;
 }
 
+@media (max-width:425px){
+  .bienvenida .contenedor{
+    padding: 1em;
+  }
+}
+
 /*FIN DE SECCION DE BIENVENIDA*/
 
 /*SECCION DE SOBRE NOSOTROS*/
@@ -208,6 +214,12 @@ header{
   .conocenos{
     padding-left: 30px;
     text-align: left;
+  }
+}
+
+@media (max-width:425px){
+  .conocenos {
+    padding: 1em;
   }
 }
 
