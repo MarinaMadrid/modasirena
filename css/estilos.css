@@ -267,7 +267,8 @@ footer{
 
 .bottom-footer{
   background-color:#193441;
-  height:25px;
+  padding: 1.5em;
+  margin-bottom: 1em;
 }
 
 .bottom-footer p{
